@@ -29,7 +29,6 @@ export default function RootLayout({
         >
             <body className="min-h-full flex flex-col" suppressHydrationWarning>
                 {children}
-                <h2>This is a main Layout text</h2>
             </body>
         </html>
     );
